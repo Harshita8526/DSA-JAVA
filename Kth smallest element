@@ -1,0 +1,5 @@
+//Kth smallest element
+        int arr[] = {7 ,10 ,4 ,20 ,15};//3 4 7 10 15 20
+        Arrays.sort(arr);
+        int k=4;
+        System.out.println(arr[0+(k-1)]);

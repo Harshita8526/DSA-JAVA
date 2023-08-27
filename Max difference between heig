@@ -1,0 +1,13 @@
+//Minimize the maximum difference between the heights
+
+        int arr[]={3, 9, 12, 16, 20};
+        Arrays.sort(arr);
+        
+        int k=3;
+        arr[0]=arr[0]+k;
+        for(int i=1;i<arr.length;i++){
+           arr[i]=arr[i]-k;
+        }
+
+        System.out.println("Max diff is");
+            System.out.print(arr[arr.length-1]-arr[0]);

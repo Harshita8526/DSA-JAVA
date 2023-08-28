@@ -1,0 +1,14 @@
+//Palindrome String
+        String s="aba";
+        String n="";
+        char ch;
+        for(int i=0;i<s.length();i++){
+            ch=s.charAt(i);
+            n=ch+n;
+        }
+        if(s.equals(n)){
+            System.out.println("Palindrome");
+        }
+        else{
+            System.out.println("Not A Palindrome");
+        }

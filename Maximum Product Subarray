@@ -1,0 +1,16 @@
+//Maximum Product Subarray
+        int n = 5;
+        int arr[] = {6, -3, -10, 0, 2};
+
+        int max_product=1;
+        int product=1;
+        for(int i=0;i<arr.length;i++){
+            product*=arr[i];
+            if(product>1){
+                if(product>max_product){
+                    max_product=product;
+                }
+            }
+
+        }
+        System.out.println("Max Product is "+max_product);

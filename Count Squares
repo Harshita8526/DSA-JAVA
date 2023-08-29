@@ -1,0 +1,10 @@
+//Count Squares
+        int n=18;
+       // int s=(int)Math.sqrt(n);
+        int m=0;
+        for(int i=1;i<n;i++) {
+            m = i * i;
+            if (m < n) {
+                System.out.println("Square is " + m);
+            }
+        }

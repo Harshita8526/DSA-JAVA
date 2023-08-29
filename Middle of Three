@@ -1,0 +1,12 @@
+//Middle of Three
+        int a = 978, b = -518, c = 300;
+        if ((a < b && b < c) || (c < b && b < a))
+            System.out.println(b);
+
+            // Checking for a
+        else if ((b < a && a < c) || (c < a && a < b))
+            System.out.println(a);
+
+        else{
+            System.out.println(c);
+        }
